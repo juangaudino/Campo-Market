@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: darkslategray;
+}
+
+h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+td ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    font-style: italic;
+}
+
+table ul li {
+    list-style-image: url("../icons/checkbox.svg");
+    list-style-position: inside;
+    margin-left: 10px;
+}
+
+form {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+div input {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+select option {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+footer a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    border-bottom: 1px solid;
+    color: blue;
+}
+
+header a {
+    outline: none;
+    text-decoration: none;
+}
+
+header li a {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+div section {
+    text-align: left;
+}
+
+.divP {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 200;
+    font-size: 1.1rem;
+    line-height: 0.75;
+}
+
+.descripcionEnvios {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bordesRedondos {
+    border-radius: 3%;
+}
+
+.italica {
+    font-style: italic;
+    text-align: left;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.precios {
+    color: black;
+    text-align: center;
+}
+
+.fondoTablas {
+    background-color: #297129;
+}
+
+.divCombosPadre {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.divCombosHijo {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 200;
+    padding: 7px 9px 7px 9px;
+    display: inline-block;
+    margin: 30px 20px 20px 20px;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.534);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border-radius: 10px;
+}
+
+#tablaCombos {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+}
+
+#tablaCarrito {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+}
+
+#videoDeFondo {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#pieDePagina {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: initial;
+    letter-spacing: 1px;
+    background-color: #297129;
+}
+
+main {
+    padding: 0rem;
+}
+
+/* Clase 6 - Aplicando Flexbox */
+
+.sectionFull {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionPrincipal {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 40%;
+}
+
+.sectionPrincipalInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 60%;
+}
+
+.sectionArticle {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sectionArticleProductos {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 20%;
+}
+
+.sectionArticleProductosInterno {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    display: inline-grid;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* seccion combos */
+
+.gridCombos {
+    display: grid;
+    height: auto;
+    grid-gap: 1rem;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-around;
+    text-align: center;
+}
+
+.combosDiv {
+    display: grid;
+    place-items: center;
+}
+
+.gridHome {
+    display: grid;
+    height: max-content;
+    width: max-content;
+    grid-gap: 2rem;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-around;
+}
+
+/* HEADER */
+
+.header {
+    display: grid;
+    /* OLD -- reemplazado por el gradientHeader= background-color: #297129;  */
+}
+
+@media only screen and (max-width: 768px) {
+    .headerTablet {
+        display: grid;
+        /* OLD -- reemplazado por el gradientHeader= background-color: #297129; */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .headerMobile {
+        display: grid;
+        /* OLD -- reemplazado por el gradientHeader= background-color: #297129; */
+    }
+}
+
+#campoMarket {
+    display: grid;
+    height: max-content;
+    justify-content: space-evenly;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    word-spacing: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    /* OLD -- reemplazado por el gradientHeader= background-color: #297129; */
+}
+
+#campoMarket ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline;
+    margin: 3px 10px;
+}
+
+.menu>li>a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+}
+
+.subMenu {
+    position: absolute;
+    background: rgb(55, 150, 55);
+    background: -moz-linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    background: linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#379637", endColorstr="#225e22", GradientType=1);
+    padding: 15px;
+    width: 125%;
+    display: none;
+}
+
+.subMenu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.menu li:hover .subMenu {
+    display: block;
+}
+
+
+/* Slideshow Home */
+
+.carousel {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 400px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none;
+}
+
+
+.slideContainer {
+    display: block;
+    width: 1200px;
+    height: 300px;
+}
+
+.slideImage {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.slideImage img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+.slideSize {
+    height: 50vh;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .slideImageTablet img {
+        width: auto;
+        min-width: 40%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .slideImageMobile img {
+        width: auto;
+        min-width: 15%;
+        height: 15%;
+    }
+}
+
+.carouselControls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 50px;
+    line-height: 400px;
+    color: #fff;
+}
+
+.carouselControls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slideImage:hover+.carouselControls label {
+    opacity: 0.5;
+}
+
+.carouselControls label:hover {
+    opacity: 1;
+}
+
+.carouselControls .prevSlide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carouselControls .nextSlide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carouselDots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carouselDots .carouselDot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+
+input:checked+.slideContainer .slideImage {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked+.slideContainer .carouselControls label {
+    display: block;
+}
+
+input#img-1:checked~.carouselDots label#img-dot-1,
+input#img-2:checked~.carouselDots label#img-dot-2,
+input#img-3:checked~.carouselDots label#img-dot-3,
+input#img-4:checked~.carouselDots label#img-dot-4,
+input#img-5:checked~.carouselDots label#img-dot-5,
+input#img-6:checked~.carouselDots label#img-dot-6 {
+    opacity: 1;
+}
+
+
+input:checked+.slideContainer .nav label {
+    display: block;
+}
+
+
+/* Clase 7 */
+/* Gradientes */
+
+.gradienteHeader {
+    background: rgb(55, 150, 55);
+    background: -moz-linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    background: linear-gradient(90deg, rgba(55, 150, 55, 1) 10%, rgba(48, 132, 48, 1) 20%, rgba(41, 113, 41, 1) 35%, rgba(41, 113, 41, 1) 65%, rgba(34, 94, 34, 1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#379637", endColorstr="#225e22", GradientType=1);
+}
+
+/* Transformaciones */
+
+.logoCampoMarket {
+    height: 100px;
+    width: 100vw;
+    transition: 2s;
+}
+
+.logoCampoMarket:hover {
+    height: 120px;
+    width: 100vw;
+}
+
+.menuTransicion {
+    width: 50px;
+    height: 50px;
+    transition: height 2s, width 1s;
+}
+
+.menuTransicion:hover {
+    height: 60px;
+    width: 60px;
+}
+
+.menu li a:hover {
+    transition: 0.5s;
+    color: #297129;
+    font-weight: 600;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Sección envios nueva */
+
+.gridEnviosNew {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Info-envios Imagen-Campo-Market"
+        "Info-envios-2 Mapa";
+}
+
+.infoEnvios {
+    grid-area: Info-envios;
+}
+
+.CampoMarketBrandingEnvios {
+    grid-area: Imagen-Campo-Market;
+}
+
+.infoEnvios2 {
+    grid-area: Info-envios-2;
+}
+
+.mapaCobertura {
+    grid-area: Mapa;
+}
+
+#fondoGenerico {
+    background-color: #297129;
+}
+
+.articleSlideText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 3rem;
+
+}
+
+.articleSlideTextSub {
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+}
+
+/* Nuevo footer */
+
+

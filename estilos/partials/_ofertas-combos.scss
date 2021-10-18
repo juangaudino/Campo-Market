@@ -1,0 +1,174 @@
+/*/ Ofertas /*/ 
+
+
+.ofertasHome {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    text-align: center;
+    &__grid {
+        display: grid;
+        height: auto;
+        grid-gap: 1rem;
+        grid-column-gap: 100px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-content: space-around;
+        text-align: center;
+    }
+    &__sectionOfertas {
+        font-family: "Source Sans Pro", sans-serif;
+        width: 20%;
+    }
+    &__combosDiv{
+        display: grid;
+        place-items: center;
+    }
+    &__ofertasHijo{
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        font-weight: 200;
+        padding: 7px 9px 7px 9px;
+        display: inline-block;
+        margin: 30px 20px 20px 20px;
+        background: rgba(0, 0, 0, 0.05);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.534);
+        backdrop-filter: blur(15.5px);
+        -webkit-backdrop-filter: blur(15.5px);
+        border-radius: 10px;
+    }
+    &__ofertasInterno{
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        display: inline-grid;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1rem;
+        &--bordesRedondos {
+            border-radius: 5%;
+        }
+    }
+}
+
+
+.sectionCombos {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    text-align: center;
+    &__grid {
+        display: grid;
+        height: auto;
+        grid-gap: 1rem;
+        grid-column-gap: 100px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-content: space-around;
+        text-align: center;
+        }
+}
+
+.combos {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 20%;
+    &__combosDiv {
+        display: grid;
+        place-items: center;
+    }
+    &__Hijo {
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        font-weight: 200;
+        padding: 7px 9px 7px 9px;
+        display: grid;
+        margin: 30px 20px 20px 20px;
+        background: rgba(0, 0, 0, 0.05);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.534);
+        backdrop-filter: blur(15.5px);
+        -webkit-backdrop-filter: blur(15.5px);
+        border-radius: 10px;
+    }
+    &__interno {
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        display: inline-grid;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1rem;
+        &--imagen {
+            border-radius: 5%;
+        }
+    }
+}
+
+.sectionFull {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    &__Principal {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 40%;
+    }
+    &__Info {
+        font-family: "Source Sans Pro", sans-serif;
+        width: 60%;
+    }
+}
+
+/*/ Alt. SASS II /*/ 
+
+$fuente: 200;
+
+.combosSass {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 20%;
+    &__combosSassDiv {
+        display: grid;
+        place-items: center;
+    }
+
+    @mixin __Hijo ($fondo, $fuente) {
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        font-weight: $fuente;
+        padding: 7px 9px 7px 9px;
+        display: grid;
+        margin: 30px 20px 20px 20px;
+        background:$fondo;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.534);
+        backdrop-filter: blur(15.5px);
+        -webkit-backdrop-filter: blur(15.5px);
+        border-radius: 10px;
+    }
+    &__Hijo-1 {
+        @include __Hijo(#7cd17c, $fuente*3)
+    }
+    &__Hijo-2 {
+        @include __Hijo(#96db96, $fuente/2)
+    }
+    &__Hijo-3 {
+        @include __Hijo(#1fec1f, $fuente*4)
+    }
+    &__Hijo-4 {
+        @include __Hijo(#ced6e7, $fuente/3)
+    }
+
+    
+    &__interno {
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        display: inline-grid;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1rem;
+        &--imagen {
+            border-radius: 5%;
+        }
+    }
+}
