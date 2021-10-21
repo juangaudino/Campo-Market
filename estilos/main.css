@@ -564,15 +564,6 @@ main {
   width: 60px;
 }
 
-.menu li a:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  color: #297129;
-  font-weight: 600;
-  padding: 10px;
-  background-color: white;
-}
-
 /* Slideshow */
 .carousel {
   margin-left: 0%;
