@@ -105,14 +105,60 @@
 
   <!-- Combos y ofertas -->
 
+  <!-- Combos #1 -->
   <div class="container-fluid ofertasHome ofertasHome__grid padding">
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
         <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250" 
           class="ofertasHome__ofertasInterno--bordesRedondos">
-          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+          <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Añadir al Carrito
+          </button>
       </div>
     </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Combo Basico</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Lista de productos detallados-->
+          <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250"
+          class="bordesRedondos__modal">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Banana</div>
+              </div>
+              <span class="badge bg-primary rounded-pill">1.5kg</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Banana</div>
+              </div>
+              <span class="badge bg-primary rounded-pill">1.5kg</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Banana</div>
+              </div>
+              <span class="badge bg-primary rounded-pill">1.5kg</span>
+            </li>
+          </ol>
+          <!-- Lista de productos detallados-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+
 
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
