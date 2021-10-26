@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combos | Campo Market</title>
-    <meta name="description" content="Los mejores combos de frutas y verduras para esta semana | Mercado online de frutas y verduras, con delivery gratis">
-    <meta name="keywords"  content="Bolsones de frutas y verduras, organico, Frutas, Verduras, Comida, Combos de frutas, Combos de verduras">
+    <meta name="description"
+        content="Los mejores combos de frutas y verduras para esta semana | Mercado online de frutas y verduras, con delivery gratis">
+    <meta name="keywords"
+        content="Bolsones de frutas y verduras, organico, Frutas, Verduras, Comida, Combos de frutas, Combos de verduras">
     <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
@@ -60,69 +62,756 @@
     <main>
         <div>
             <section>
-                <!--  -->
+                <!-- intro -->
                 <div class="container-fluid padding">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Arrancá la semana con todo y llenando la heladera sin moverte de casa</h1>
-                            <div class="row sectionFull">
-                                <div class="col-md-6 sectionFull__Principal">
-                                    <h3> Las frutas y verduras mas frescas </h3>
-                                    <h5> Estos son nuestros combos de la semana. Elegi la cantidad de combos
-                                        y añadilos al
-                                        carrito </h5>
-                                </div>
-                                <div class="col-md-6 sectionFull__Info">
-                                    <p class="sectionFull__Info">
-                                        Llevamos a tu casa una caja con <strong>frutas</strong> y <strong>verduras
-                                        </strong>
-                                        <em>frescas</em>,
-                                        naturales delicadamente empacadas y listas para el consumo. Ahorras tiempo y
-                                        dinero en
-                                        compras, recibiendo la caja en tu domicilio junto con increíbles recetas y
-                                        originales
-                                        propuestas de coctails naturales.
-                                    </p>
-                                </div>
+                            <div class="page-header">
+                                <h1>
+                                    ¡Arrancá la semana con todo y llenando la heladera sin moverte de casa!
+                                    <div>
+                                        <h4>Con nuestros combos de la semana, combos especiales y combos de ahorro</h4>
+                                    </div>
+                                </h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Combos -->
+                <!-- Combos basicos de frutas y verduras / Parte 1 -->
                 <div class="container-fluid ofertasHome ofertasHome__grid padding">
+                    <!-- Combos #1 -->
                     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
-                      <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-                        <img src="/img/basico.jpg" alt="Combo Basico" width="250" height="250"
-                          class="ofertasHome__ofertasInterno--bordesRedondos">
-                          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
-                      </div>
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/frutas.jpg" alt="Combo Frutas" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo1">
+                                Añadir al Carrito
+                            </button>
+                        </div>
                     </div>
-                
-                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
-                      <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-                        <img src="/img/ahorro.jpg" alt="Combo Ahorro" width="250" height="250"
-                          class="ofertasHome__ofertasInterno--bordesRedondos">
-                          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
-                      </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo1" tabindex="-1" aria-labelledby="combo1Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo1Label">Combo Frutas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/frutas.jpg" alt="Combo Frutas" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                
-                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
-                      <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-                        <img src="/img/familiar.jpg" alt="Combo Familiar" width="250" height="250"
-                          class="ofertasHome__ofertasInterno--bordesRedondos">
-                          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
-                      </div>
-                    </div>
-                
-                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
-                      <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-                        <img src="/img/frutas.jpg" alt="Combo Frutas" width="250" height="250"
-                          class="ofertasHome__ofertasInterno--bordesRedondos">
-                          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
-                      </div>
-                    </div>
-                  </div>
+                    <!-- Modal -->
+                    <!-- Combos #1 -->
 
+                    <!-- Combos #2 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/frutosdesayuno.jpg" alt="Combo Frutos Secos Desayuno" width="250"
+                                height="250" class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo2">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo2" tabindex="-1" aria-labelledby="combo2Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo2Label">Combo Frutos Secos Desayuno</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/frutosdesayuno.jpg" alt="Combo Frutos Secos Desayuno" width="250"
+                                        height="250" class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #2 -->
+
+
+                    <!-- Combos #3 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/frutospremium.jpg" alt="Combo Frutos Secos Premium" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo3">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo3" tabindex="-1" aria-labelledby="combo3Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo3Label">Combo Frutas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/frutospremium.jpg" alt="Combo Frutos Secos Premium" width="250"
+                                        height="250" class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #3 -->
+
+                    <!-- Combos #4 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/verduras.jpg" alt="Combo Verduras" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo4">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo4" tabindex="-1" aria-labelledby="combo4Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo4Label">Combo Verduras</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/verduras.jpg" alt="Combo Verduras" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #4 -->
+                    <!-- Combos basicos de frutas y verduras / Parte 1 -->
+
+                    <!-- Combos especiales de frutas y verduras / Parte 2 -->
+                    <!-- Combos #5 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/ahorro.jpg" alt="Combo Ahorro" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo5">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo5" tabindex="-1" aria-labelledby="combo5Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo5Label">Combo Ahorro</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/ahorro.jpg" alt="Combo Frutas" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #5 -->
+
+                    <!-- Combos #6 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/basico.jpg" alt="Combo Basico" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo6">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo6" tabindex="-1" aria-labelledby="combo6Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo6Label">Combo Basico</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/basico.jpg" alt="Combo Basico" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #6 -->
+
+                    <!-- Combos #7 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/familiar.jpg" alt="Combo Familiar" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo7">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo7" tabindex="-1" aria-labelledby="combo7Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo7Label">Combo Familiar</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/familiar.jpg" alt="Combo Familiar" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #7 -->
+
+                    <!-- Combos #8 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/dieta.jpg" alt="Combo Dieta" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo8">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo8" tabindex="-1" aria-labelledby="combo8Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo8Label">Combo Dieta</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/dieta.jpg" alt="Combo Dieta" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Naranjas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">2kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papa</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Morrón</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Tomate</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Zapallito</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">0.5kg</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Acelga</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1paq.</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Combos #8 -->
+                    <!-- Combos especiales de frutas y verduras / Parte 2 -->
+
+                </div>
             </section>
 
         </div>

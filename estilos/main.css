@@ -44,6 +44,13 @@ h4 {
   line-height: 1.5;
 }
 
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
 .divP {
   font-family: "Source Sans Pro", sans-serif;
   color: black;
@@ -280,9 +287,8 @@ main {
 /*/ Ofertas /*/
 .ofertasHome {
   font-family: "Source Sans Pro", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   margin-top: 1rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -295,8 +301,8 @@ main {
   height: auto;
   grid-gap: 1rem;
   grid-column-gap: 100px;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
@@ -310,6 +316,9 @@ main {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ofertasHome__ofertasHijo {
@@ -541,10 +550,6 @@ main {
 .gridEnvios {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
   gap: 1em 1em;
   padding: 3%;
   grid-auto-flow: row;
@@ -574,6 +579,25 @@ main {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: Mapa;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding-bottom: 28%;
+  position: relative;
+  height: 250px;
+}
+
+.gridEnvios__mapaCobertura iframe {
+  left: 0;
+  top: 0;
+  width: 70vw;
+  height: 300%;
+  position: relative;
+  border: 1px solid #cecece;
+  max-width: 100%;
 }
 
 .gridEnvios__descripcionEnvios {

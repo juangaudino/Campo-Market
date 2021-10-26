@@ -3,7 +3,7 @@
 
 .ofertasHome {
     font-family: "Source Sans Pro", sans-serif;
-    display: flex;
+    display: grid;
     margin-top: 1rem;
     justify-content: space-around;
     text-align: center;
@@ -12,7 +12,7 @@
         height: auto;
         grid-gap: 1rem;
         grid-column-gap: 100px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-content: space-around;
         text-align: center;
     }
@@ -22,6 +22,7 @@
     &__combosDiv{
         display: grid;
         place-items: center;
+        justify-content: center;
     }
     &__ofertasHijo{
         font-family: "Source Sans Pro", sans-serif;

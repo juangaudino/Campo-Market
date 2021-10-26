@@ -3,8 +3,6 @@
 
 .gridEnvios {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 1em 1em;
     padding: 3%;
     grid-auto-flow: row;
@@ -23,6 +21,21 @@
     }
     &__mapaCobertura {
         grid-area: Mapa;
+        display:grid;
+        justify-content: center;
+        overflow: hidden;
+        padding-bottom:28%;
+        position:relative;
+        height: 250px;
+        iframe {
+            left: 0;
+            top: 0;
+            width: 70vw;
+            height: 300%;
+            position: relative;
+            border: 1px solid #cecece;
+            max-width: 100%;
+        }
     }
     &__descripcionEnvios{
         font-family: "Source Sans Pro", sans-serif;
@@ -32,3 +45,4 @@
         line-height: 1.5;
     }
     }
+    

@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Campo Market | Frutas y verduras frescas a domicilio</title>
   <meta name="description" content="Mercado online de frutas y verduras, con delivery gratis">
-  <meta name="keywords"  content="Frutas, Verduras, Comida, Delivery, Mercado, Supermercado, Combos de frutas, Combos de verduras">
+  <meta name="keywords"
+    content="Frutas, Verduras, Comida, Delivery, Mercado, Supermercado, Combos de frutas, Combos de verduras">
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
@@ -69,7 +70,7 @@
           <img src="./img/Slide1.png" class="slideSize img-fluid d-block w-100" alt="Mira nuestros combos">
           <div class="carousel-caption d-md-block">
             <a class="carousel-caption__p" href="seccion/combos.html">
-            <p>Mira nuestros combos</p>
+              <p>Mira nuestros combos</p>
             </a>
             <p class="carousel-caption__px">
               A los mejores precios y sin cargo hasta tu casa </p>
@@ -105,84 +106,359 @@
 
   <!-- Combos y ofertas -->
 
-  <!-- Combos #1 -->
   <div class="container-fluid ofertasHome ofertasHome__grid padding">
+    <!-- Combos #1 -->
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-        <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250" 
+        <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250"
           class="ofertasHome__ofertasInterno--bordesRedondos">
-          <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Añadir al Carrito
-          </button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#combo1">
+          Añadir al Carrito
+        </button>
       </div>
     </div>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Combo Basico</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!-- Lista de productos detallados-->
-          <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250"
-          class="bordesRedondos__modal">
-          <ol class="list-group list-group-numbered">
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Banana</div>
-              </div>
-              <span class="badge bg-primary rounded-pill">1.5kg</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Banana</div>
-              </div>
-              <span class="badge bg-primary rounded-pill">1.5kg</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Banana</div>
-              </div>
-              <span class="badge bg-primary rounded-pill">1.5kg</span>
-            </li>
-          </ol>
-          <!-- Lista de productos detallados-->
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+    <!-- Modal -->
+    <div class="modal fade" id="combo1" tabindex="-1" aria-labelledby="combo1Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="combo1Label">Combo Basico</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Lista de productos detallados-->
+            <img src="./img/basico.jpg" alt="Combo Basico" width="250" height="250" class="bordesRedondos__modal">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Banana</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Naranjas</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">2kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Limon</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Cebolla</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Papa</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Morrón</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Tomate</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Zapallito</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Acelga</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1paq.</span>
+              </li>
+            </ol>
+            <!-- Lista de productos detallados-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Modal -->
+    <!-- Modal -->
+    <!-- Combos #1 -->
 
-
-
+    <!-- Combos #2 -->
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-        <img src="./img/ahorro.jpg" alt="Combo Ahorro" width="250" height="250"
+        <img src="./img/ahorro.jpg" alt="Combo Basico" width="250" height="250"
           class="ofertasHome__ofertasInterno--bordesRedondos">
-          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#combo2">
+          Añadir al Carrito
+        </button>
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="combo2" tabindex="-1" aria-labelledby="combo2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="combo2Label">Combo Ahorro</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Lista de productos detallados-->
+            <img src="./img/ahorro.jpg" alt="Combo Basico" width="250" height="250" class="bordesRedondos__modal">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Banana</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Naranjas</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">2kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Limon</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Cebolla</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Papa</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Morrón</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Tomate</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Zapallito</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Acelga</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1paq.</span>
+              </li>
+            </ol>
+            <!-- Lista de productos detallados-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <!-- Combos #2 -->
 
+    <!-- Combos #3 -->
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
         <img src="./img/familiar.jpg" alt="Combo Familiar" width="250" height="250"
           class="ofertasHome__ofertasInterno--bordesRedondos">
-          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#combo3">
+          Añadir al Carrito
+        </button>
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="combo3" tabindex="-1" aria-labelledby="combo3Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="combo3Label">Combo Familiar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Lista de productos detallados-->
+            <img src="./img/familiar.jpg" alt="Combo Familiar" width="250" height="250" class="bordesRedondos__modal">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Banana</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Naranjas</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">2kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Limon</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Cebolla</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Papa</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Morrón</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Tomate</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Zapallito</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Acelga</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1paq.</span>
+              </li>
+            </ol>
+            <!-- Lista de productos detallados-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <!-- Combos #3 -->
 
+    <!-- Combos #4 -->
     <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
       <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
-        <img src="./img/frutas.jpg" alt="Combo Frutas" width="250" height="250"
+        <img src="./img/dieta.jpg" alt="Combo Dieta" width="250" height="250"
           class="ofertasHome__ofertasInterno--bordesRedondos">
-          <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#combo4">
+          Añadir al Carrito
+        </button>
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="combo4" tabindex="-1" aria-labelledby="combo4Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="combo4Label">Combo Dieta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Lista de productos detallados-->
+            <img src="./img/dieta.jpg" alt="Combo Dieta" width="250" height="250" class="bordesRedondos__modal">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Banana</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Naranjas</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">2kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Limon</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Cebolla</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Papa</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Morrón</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Tomate</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Zapallito</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">0.5kg</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Acelga</div>
+                </div>
+                <span class="badge bg-primary rounded-pill">1paq.</span>
+              </li>
+            </ol>
+            <!-- Lista de productos detallados-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <!-- Combos #4 -->
+
   </div>
 
   <!-- footer  -->
