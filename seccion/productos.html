@@ -66,7 +66,7 @@
                                 <h1>
                                     Pedi lo que quieras y te lo llevamos hasta tu casa #QuedateEnCasa
                                     <div>
-                                        <small>Podes elegir cualquiera de nuestros productos</small>
+                                        <h4>Podes elegir cualquiera de nuestros productos</h4>
                                     </div>
                                 </h1>
                             </div>
@@ -75,146 +75,356 @@
                 </div>
                 
                 <!-- Productos -->
-
-                <article class="sectionCombos sectionCombos__grid">
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/basico.jpg" alt="Combo Basico" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                <div class="container-fluid ofertasHome ofertasHome__grid padding">
+                    <!-- Producto #1 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/anana.jpg" alt="Ananá" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo1">
+                                Añadir al Carrito
+                            </button>
                         </div>
                     </div>
-
-
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/ahorro.jpg" alt="Combo Ahorro" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo1" tabindex="-1" aria-labelledby="combo1Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo1Label">Frutas frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/anana.jpg" alt="Ananá" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ananá importada de Brasil</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!-- Modal -->
+                    <!-- Producto #1 -->
 
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/familiar.jpg" alt="Combo Familiar" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Producto #2 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/banana.jpg" alt="Banana" width="250"
+                                height="250" class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo2">
+                                Añadir al Carrito
+                            </button>
                         </div>
                     </div>
-
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/frutas.jpg" alt="Combo Frutas" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo2" tabindex="-1" aria-labelledby="combo2Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo2Label">Frutas frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/banana.jpg" alt="Banana" width="250"
+                                        height="250" class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Banana</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/verduras.jpg" alt="Combo Basico" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
-                        </div>
-                    </div>
+                    <!-- Modal -->
+                    <!-- Producto #2 -->
 
 
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/dieta.jpg" alt="Combo Ahorro" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Producto #3 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/berenjena.jpg" alt="Berenjena" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo3">
+                                Añadir al Carrito
+                            </button>
                         </div>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo3" tabindex="-1" aria-labelledby="combo3Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo3Label">Verduras frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/berenjena.jpg" alt="Berenjena" width="250"
+                                        height="250" class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Berenjena</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Producto #3 -->
 
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/frutosdesayuno.jpg" alt="Combo Familiar" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Producto #4 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/cebollas.jpg" alt="Cebollas" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo4">
+                                Añadir al Carrito
+                            </button>
                         </div>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo4" tabindex="-1" aria-labelledby="combo4Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo4Label">Verduras frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/cebollas.jpg" alt="Cebolla" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Cebolla</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Producto #4 -->
+                    <!-- Combos basicos de frutas y verduras / Parte 1 -->
 
-                    <div class="combos combos__combosDiv">
-                        <div class="combos__Hijo combos__interno">
-                            <img src="../img/frutospremium.jpg" alt="Combo Frutas" width="250" height="250"
-                                class="combos__interno--imagen">
-                            <form action="" method="GET">
-                                <label for="Cantidad">Cantidad:</label>
-                                <select name="Cantidad" id="Cantidad">
-                                    <option value="0" disabled selected>Seleccione</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <input type="submit" value="Añadir al Carrito">
-                                </select>
-                            </form>
+                    <!-- Combos especiales de frutas y verduras / Parte 2 -->
+                    <!-- Producto #5 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/espinaca.jpg" alt="Espinaca" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo5">
+                                Añadir al Carrito
+                            </button>
                         </div>
                     </div>
-                </article>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo5" tabindex="-1" aria-labelledby="combo5Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo5Label">Vegetales frescos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/espinaca.jpg" alt="Espinaca" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Espinaca</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Productos #5 -->
+
+                    <!-- Combos #6 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/limon.jpg" alt="Limon" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo6">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo6" tabindex="-1" aria-labelledby="combo6Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo6Label">Frutas frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/limon.jpg" alt="Limón" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Limon</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Productos #6 -->
+
+                    <!-- Combos #7 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/mandarina.jpg" alt="Mandarinas" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo7">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo7" tabindex="-1" aria-labelledby="combo7Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo7Label">Frutas frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/mandarina.jpg" alt="Mandarinas" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Mandarinas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Productos #7 -->
+
+                    <!-- Productos #8 -->
+                    <div class="ofertasHome__sectionOfertas ofertasHome__combosDiv">
+                        <div class="ofertasHome__ofertasHijo ofertasHome__ofertasInterno">
+                            <img src="/img/Productos/papa.jpg" alt="Papas" width="250" height="250"
+                                class="ofertasHome__ofertasInterno--bordesRedondos">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#combo8">
+                                Añadir al Carrito
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="combo8" tabindex="-1" aria-labelledby="combo8Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="combo8Label">Verduras frescas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Lista de productos detallados-->
+                                    <img src="/img/Productos/papa.jpg" alt="Papas" width="250" height="250"
+                                        class="bordesRedondos__modal">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Papas</div>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">1kg</span>
+                                        </li>
+                                    </ol>
+                                    <!-- Lista de productos detallados-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-sm">Añadir al Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Producto #8 -->
+                    <!-- Combos especiales de frutas y verduras / Parte 2 -->
+
+                </div>
 
             </section>
 
