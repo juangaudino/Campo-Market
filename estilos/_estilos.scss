@@ -146,3 +146,81 @@ main {
         border-color: #297129;
         margin-top: 3%;
 }
+
+/*/ text over image /*/
+
+.textCombo {
+    position: relative;
+    bottom: 0.3rem;
+    left: 50%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.25rem;
+    transform: translate(-50%, -70%);
+    color: yellow;
+    text-shadow: black;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    &__sub {
+        position: relative;
+        left: 50%;
+        padding-bottom: 0.75rem;
+        transform: translate(-50%, -150%);
+        color:white;
+        text-shadow: black;
+        font-weight: 600;
+        font-size: 1.9rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    &__precio {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -00%);
+        color:yellow;
+        text-shadow: black;
+        font-weight: 600;
+        font-size: 2rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    &__modalMain {
+        position: relative;
+        bottom: 1.25rem;
+        left: 50%;
+        padding-top: 1.5rem;
+        padding-bottom: 0.25rem;
+        transform: translate(-50%, -70%);
+        color: yellow;
+        text-shadow: black;
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    &__modalSub {
+        position: relative;
+        left: 50%;
+        padding-bottom: 1.75rem;
+        transform: translate(-50%, -150%);
+        color:white;
+        text-shadow: black;
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    &__modalFecha {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -35%);
+        color:yellow;
+        text-shadow: black;
+        font-weight: 600;
+        font-size: 2rem;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
