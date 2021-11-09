@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -157,8 +157,8 @@ main {
   -webkit-transform: translate(-50%, -70%);
           transform: translate(-50%, -70%);
   color: yellow;
-  text-shadow: black;
-  font-weight: 800;
+  text-shadow: 0.5px 0.75px 1px black;
+  font-weight: 600;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
@@ -171,7 +171,7 @@ main {
   -webkit-transform: translate(-50%, -150%);
           transform: translate(-50%, -150%);
   color: white;
-  text-shadow: black;
+  text-shadow: 0.5px 0.75px 1px black;
   font-weight: 600;
   font-size: 1.9rem;
   text-decoration: none;
@@ -184,8 +184,8 @@ main {
   -webkit-transform: translate(-50%, 0%);
           transform: translate(-50%, 0%);
   color: yellow;
-  text-shadow: black;
-  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 800;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
@@ -200,7 +200,7 @@ main {
   -webkit-transform: translate(-50%, -70%);
           transform: translate(-50%, -70%);
   color: yellow;
-  text-shadow: black;
+  text-shadow: 0.5px 0.75px 1px black;
   font-weight: 600;
   font-size: 1.8rem;
   text-decoration: none;
@@ -214,7 +214,7 @@ main {
   -webkit-transform: translate(-50%, -150%);
           transform: translate(-50%, -150%);
   color: white;
-  text-shadow: black;
+  text-shadow: 0.5px 0.75px 1px black;
   font-weight: 600;
   font-size: 1.8rem;
   text-decoration: none;
@@ -224,11 +224,11 @@ main {
 .textCombo__modalFecha {
   position: relative;
   left: 50%;
-  -webkit-transform: translate(-50%, -35%);
-          transform: translate(-50%, -35%);
-  color: yellow;
-  text-shadow: black;
-  font-weight: 600;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 800;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
@@ -390,7 +390,7 @@ main {
   display: grid;
   height: auto;
   grid-gap: 1rem;
-  grid-column-gap: 100px;
+  grid-column-gap: 25px;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   -ms-flex-pack: distribute;
@@ -440,7 +440,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 .ofertasHome__ofertasInterno--bordesRedondos {
