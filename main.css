@@ -81,7 +81,28 @@ h6 {
 }
 
 .padding {
-  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .padding {
+    padding-top: 0%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .padding {
+    padding-top: 0%;
+    padding-bottom: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 
 #videoDeFondo {
@@ -113,25 +134,47 @@ main {
 
 .carousel-caption__p {
   color: white;
-  text-shadow: whitesmoke;
-  font-weight: 400;
-  font-size: 2.2rem;
+  font-weight: 600;
+  font-size: 2.4rem;
   text-decoration: none;
 }
 
 .carousel-caption__p :hover {
   color: white;
-  text-shadow: whitesmoke;
+  text-shadow: 2px 2px 2px black;
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 
 .carousel-caption__px {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
-  text-shadow: whitesmoke;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-caption {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .carousel-caption__p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+  .carousel-caption__p :hover {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .carousel-caption__px {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
 }
 
 /*/ Custom Buttons /*/
@@ -226,6 +269,47 @@ main {
   left: 50%;
   -webkit-transform: translate(-50%, -55%);
           transform: translate(-50%, -55%);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 800;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textCombo__modalMainCombos {
+  position: relative;
+  bottom: 15.2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
+  color: yellow;
+  text-shadow: 0.5px 0.75px 1px black;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textCombo__modalSubCombos {
+  position: relative;
+  left: 50%;
+  padding-bottom: 10rem;
+  -webkit-transform: translate(-50%, -150%);
+          transform: translate(-50%, -150%);
+  color: white;
+  text-shadow: 0.5px 0.75px 1px black;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.textCombo__modalFechaCombos {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, -740%);
+          transform: translate(-50%, -740%);
   color: white;
   text-shadow: 1px 1px 2px black;
   font-weight: 800;
