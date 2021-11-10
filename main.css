@@ -318,6 +318,18 @@ main {
   text-align: center;
 }
 
+.textCombo__textDiv {
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
 /*/ Formularios /*/
 .register {
   background: -webkit-linear-gradient(left, #379637, #297129);
