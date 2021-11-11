@@ -190,11 +190,11 @@ main {
 
 .textCombo {
     position: relative;
-    bottom: 0.9rem;
+    bottom: 0.3rem;
     left: 50%;
-    padding-top: 0.3rem;
-    padding-bottom: 0.1rem;
-    transform: translate(-50%, -75%);
+    padding-top: 0.7rem;
+    padding-bottom: 0.25rem;
+    transform: translate(-50%, -70%);
     color: yellow;
     text-shadow: 0.5px 0.75px 1px black;
     font-weight: 600;
@@ -205,7 +205,7 @@ main {
         position: relative;
         left: 50%;
         padding-bottom: 0.75rem;
-        transform: translate(-50%, -160%);
+        transform: translate(-50%, -150%);
         color:white;
         text-shadow: 0.5px 0.75px 1px black;
         font-weight: 600;
@@ -216,7 +216,7 @@ main {
     &__precio {
         position: relative;
         left: 50%;
-        transform: translate(-50%, -10%);
+        transform: translate(-50%, -00%);
         color:yellow;
         text-shadow: 1px 1px 2px black;
         font-weight: 800;
@@ -304,6 +304,18 @@ main {
     padding-top: 2rem;
     color: #fff;
     text-align: center;
+}
+&__textModal {
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 2rem;
+    color: #fff;
+    text-align: center;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 }
         
