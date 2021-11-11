@@ -323,6 +323,7 @@ main {
   position: absolute;
   right: 15%;
   left: 15%;
+  padding-top: 1.25rem;
   color: #fff;
   text-align: center;
 }
