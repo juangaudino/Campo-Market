@@ -87,7 +87,13 @@ h6 {
     padding-bottom: 2.5%;
     padding-left: 3%;
     padding-right: 3%;
+    &__mainText {
+    padding-top: 1.5%;
+    padding-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
+}	
 @media only screen and (max-width: 1050px) {
     .padding {
         padding-top: 0%;
@@ -98,7 +104,7 @@ h6 {
 }
 @media only screen and (max-width: 768px) {
     .padding {
-        padding-top: 0%;
+        padding-top: 5%;
         padding-bottom: 8%;
         padding-left: 3%;
         padding-right: 3%;
@@ -318,5 +324,18 @@ main {
     padding-bottom: 1.25rem;
 }
 }
+
+/*/ Margenes footer /*/
+
+.marginFooter {
+    margin-top: 4rem;
+    padding-left: 5%;
+    @media only screen and (max-width: 768px) {
+        margin-top: 1.5rem;
+        padding-left: 0%;
+    }
+}
+
+
         
 

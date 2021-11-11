@@ -87,6 +87,13 @@ h6 {
   padding-right: 3%;
 }
 
+.padding__mainText {
+  padding-top: 1.5%;
+  padding-bottom: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 @media only screen and (max-width: 1050px) {
   .padding {
     padding-top: 0%;
@@ -98,7 +105,7 @@ h6 {
 
 @media only screen and (max-width: 768px) {
   .padding {
-    padding-top: 0%;
+    padding-top: 5%;
     padding-bottom: 8%;
     padding-left: 3%;
     padding-right: 3%;
@@ -341,6 +348,19 @@ main {
   padding-bottom: 1.25rem;
 }
 
+/*/ Margenes footer /*/
+.marginFooter {
+  margin-top: 4rem;
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .marginFooter {
+    margin-top: 1.5rem;
+    padding-left: 0%;
+  }
+}
+
 /*/ Formularios /*/
 .register {
   background: -webkit-linear-gradient(left, #379637, #297129);
@@ -486,7 +506,7 @@ main {
   font-family: "Source Sans Pro", sans-serif;
   display: -ms-grid;
   display: grid;
-  margin-top: 1rem;
+  margin-top: -1.5rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
@@ -746,7 +766,10 @@ main {
   display: -ms-grid;
   display: grid;
   gap: 1em 1em;
-  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
   grid-auto-flow: row;
       grid-template-areas: "Info-envios Imagen-Campo-Market" "Info-envios-2 Mapa";
   justify-items: center;

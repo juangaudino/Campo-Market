@@ -4,7 +4,10 @@
 .gridEnvios {
     display: grid;
     gap: 1em 1em;
-    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
     grid-auto-flow: row;
     grid-template-areas:
         "Info-envios Imagen-Campo-Market"
