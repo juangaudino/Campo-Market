@@ -568,8 +568,11 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: -1rem;
-  position: relative .ofertasHome__ofertasInterno --bordesRedondos;
-  position-border-radius: 5%;
+  position: relative;
+}
+
+.ofertasHome__ofertasInterno--bordesRedondos {
+  border-radius: 5%;
 }
 
 .sectionCombos {
