@@ -432,11 +432,18 @@ main {
 
 /*animacion logo registro */
 .regimg {
-  margin-top: 15%;
-  margin-bottom: 5%;
-  width: 75%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 50%;
   -webkit-animation: mover 2s infinite  alternate;
-  animation: mover 1s infinite  alternate;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
 }
 
 @-webkit-keyframes mover {
@@ -489,16 +496,55 @@ main {
 
 .register__register-left--p {
   font-weight: lighter;
-  padding: 12%;
-  margin-top: -9%;
+  padding: 8%;
+  margin-top: -7%;
   color: white;
 }
 
 .register__register-left--h2 {
   font-weight: 400;
-  padding: 12%;
+  padding: 7%;
   margin-top: -9%;
+  margin-bottom: -5%;
   color: white;
+}
+
+@media only screen and (max-width: 974px) {
+  .register {
+    margin-top: 3%;
+    padding: 3%;
+    margin-bottom: 3%;
+  }
+  .register__register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+  }
+  .register__register-left--button {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+  }
+  .register__register-left--p {
+    font-weight: lighter;
+    padding: 5%;
+    margin-top: -7%;
+    color: white;
+  }
+  .register__register-left--h2 {
+    font-weight: 400;
+    padding: 7%;
+    margin-top: -9%;
+    margin-bottom: -5%;
+    color: white;
+  }
 }
 
 /*/ Ofertas /*/
