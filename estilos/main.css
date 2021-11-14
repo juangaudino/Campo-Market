@@ -180,7 +180,31 @@ h6 {
   margin-top: 3%;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover {
+  background-color: #297129;
+  border-color: #297129;
+  margin-top: 3%;
+}
+
+.btn-primary:focus {
+  background-color: #297129;
+  border-color: #297129;
+  margin-top: 3%;
+}
+
+.btn-primary:active {
+  background-color: #297129;
+  border-color: #297129;
+  margin-top: 3%;
+}
+
+.btn-primary.active {
+  background-color: #297129;
+  border-color: #297129;
+  margin-top: 3%;
+}
+
+.open > .dropdown-toggle.btn-primary {
   background-color: #297129;
   border-color: #297129;
   margin-top: 3%;
@@ -350,7 +374,7 @@ h6 {
   }
 }
 
-/*/ Formularios /*/
+/*/ Formulario Contactos /*/
 .register {
   background: -webkit-linear-gradient(left, #379637, #297129);
   margin-top: 3%;
@@ -369,7 +393,7 @@ h6 {
   color: #495057;
 }
 
-/* Continuidad clases registro */
+/* Continuidad clases Formulario Contactos */
 .register-right {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
@@ -692,8 +716,7 @@ h6 {
   padding-left: 3%;
   padding-right: 3%;
   grid-auto-flow: row;
-      grid-template-areas: "Info-envios Imagen-Campo-Market"
- "Info-envios-2 Mapa";
+      grid-template-areas: "Info-envios Imagen-Campo-Market" "Info-envios-2 Mapa";
   justify-items: center;
 }
 

@@ -175,8 +175,28 @@ h6 {
     background-color: #379637;
     border-color: #379637;
     margin-top: 3%;
+    &:hover {
+        background-color: #297129;
+        border-color: #297129;
+        margin-top: 3%;
+    }
+    &:focus {
+        background-color: #297129;
+        border-color: #297129;
+        margin-top: 3%;
+    }
+    &:active {
+        background-color: #297129;
+        border-color: #297129;
+        margin-top: 3%;
+    }
+    &.active {
+        background-color: #297129;
+        border-color: #297129;
+        margin-top: 3%;
+    }
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
         background-color: #297129;
         border-color: #297129;
         margin-top: 3%;
